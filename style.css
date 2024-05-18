@@ -1,0 +1,393 @@
+body{
+    background-image: url(photo/bg2.jpg);
+    background-repeat: repeat-y;
+    
+}
+
+.container1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    height: 100%; 
+}
+
+.nav-bar{
+    width: 100%;
+    background-color:rgb(49, 111, 38);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    align-items: center;
+ 
+    
+}
+.logo{
+    width: 25%;
+}
+img {
+    width: 80%;
+    align-items: center;
+    border-radius: 50px;
+}
+
+.nav-btn{
+    display: flex;
+    flex-direction: row;
+    margin-right: 2%;
+    justify-content: center;
+    align-items: center;  
+    transition: 0.5s;
+}
+
+.nav-btn a{
+    padding: 3%;
+    margin-left: 5%;
+    text-decoration: none;
+    color: white; 
+    font-weight: bold;
+    font-size: 17px;
+    transition: 0.5s;
+}
+
+.user a{
+
+    text-decoration: none;
+    color: white; 
+    font-weight: bold;
+    font-size: 17px;
+    transition: 0.5s;
+
+}
+
+.nav-search{
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    transition: 0.5s;
+}
+
+input[type="search"]{
+
+    align-items: center;
+    border-radius: 50px;
+    border: none;
+    transition: 0.5s;
+}
+
+button[type="submit"]{
+    background-color:rgb(49, 101, 40);
+    color: white;
+    border: none;
+    border-radius:50px;
+    font-weight: bold;
+   
+}
+
+.nav-btn a:hover{
+    background-color:white;  
+    transition: 0.5s;
+}
+
+.nav-content{
+    width: 90%;
+    background-color:rgb(49, 101, 40);
+    margin-top: 0.5%;
+    padding: 0.5%;
+    border-radius: 5px;
+    text-decoration: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    text-align: center;
+    transition: 0.5s;
+    
+}
+
+.nav-content a{
+    margin-left: 2%;
+    text-decoration: none;
+    color: white; 
+    font-weight: bold;
+    font-size: 17px;
+    transition: 0.5s;
+}
+
+.nav-content a:hover{
+    
+    background-color:white;
+    transition: 0.5s;
+
+}
+
+.text1{
+    padding-bottom: 27%;
+    background-image: url(photo/ff.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+
+.text1 p{
+
+    padding: 2%;
+    margin: 1%;
+    font-weight: bold;
+    background-color: rgb(155, 216, 155);
+}
+
+.text2{
+width: 100%;
+}
+
+.text2 p{
+
+    padding: 2%;
+    margin: 1%;
+    font-weight: bold;
+    background-color: rgb(155, 216, 155);
+}
+
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    border-radius: 7px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    justify-content: center;
+    background-color: white;
+    margin-bottom: 2%;
+}
+
+.form-group{
+    box-shadow:none;
+    padding: 0%;
+    margin-top: 0%;
+}
+
+.form-group label{
+   margin-top: 0%;
+}
+
+button[class="btn"]{
+    width: 8%;
+    background-color:green;
+    color: white;
+    font-weight: bold;
+    margin-top: 1%;
+    transition: 0.5s;
+   
+}
+
+button[class="btn"]:hover{
+    background-color:rgb(49, 111, 38);
+    color: white;
+    font-weight: bold;
+    margin-top: 1%;
+    transition: 0.5s;
+}
+
+.elements{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%
+   
+}
+
+.right-element{
+    width: 50%;
+}
+
+h4{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 2%;
+
+}
+
+hr{
+    
+    height: 1px;
+    width: 100%;
+    margin-top: 2px;
+}
+
+label{
+    margin-top: 2%;
+    font-weight: 40%;
+}
+
+input{
+    
+    padding: 1%;
+}
+
+input:hover{
+    background-color: rgb(232, 239, 239);
+    transition: 0.5s;
+   
+  
+}
+
+input[type="submit"]{
+    margin-top: 4%;
+    background-color:rgb(49, 111, 38);
+    color: white;
+    border: 1px solid;
+    font-weight: bold;
+    cursor: pointer; 
+    transition: 0.5s;
+      
+}
+
+input[type="submit"]:hover{
+    background-color: rgb(125, 150, 150);
+    transition: 0.5s;
+}
+
+p{
+    margin-top: 2%;
+    text-align: center; 
+}
+
+a:hover{
+    color: blue;
+    transition: 0.5s;
+    
+}
+
+select{
+    padding: 2%;
+}
+
+
+.card-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card-header a{
+    text-decoration:none;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+
+.card-header a:hover{
+    color: blue;
+    transition: 0.5s;
+   
+}
+
+.card-body{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+
+.topic-count{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.comment-count{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.dropbtn{
+    color:green;
+    font-weight: bold;
+    border: none;
+    transition: 0.5s; 
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+  
+.dropdown-content a {
+    color: black;
+    padding: 5px 8px;
+    text-decoration: none;
+    display: block;
+    transition: 0.5s;
+
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropbtn:hover {
+    color: black;
+}
+
+.profile{
+    position: relative;
+    width: 20%;
+    
+}
+
+.profile img{
+    width: 40%;
+}
+
+
+.col-4{
+    width: 100%;
+ 
+}
+
+.col-4 img{
+    width: 100%;
+
+}
+
+footer{
+    width: 100%;
+    background-color: rgb(211, 211, 211);
+    padding: 2%;
+  
+}
+
+
+.addtopic{
+    text-align: center;
+    margin: 2%;  
+    width: 100%;
+    padding: 1%;
+    background-color: green;
+
+}
+
+.genre{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1%;
+    margin-left: 2%;
+    margin-right: 5%;
+    justify-content: space-between;
+}
+
+
+form[class="form-group"]{
+    background: none;
+}
+
+
+
+
+
